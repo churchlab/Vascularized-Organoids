@@ -1,0 +1,3 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0043679","GO:0043679","axon terminus","1/3","118/17405",0.0202025561493914,0.0343811302499978,0.0120635544736835,"TPBG",1
+"GO:0044306","GO:0044306","neuron projection terminus","1/3","134/17405",0.0229207534999986,0.0343811302499978,0.0120635544736835,"TPBG",1

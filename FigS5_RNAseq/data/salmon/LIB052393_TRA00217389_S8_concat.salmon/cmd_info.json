@@ -1,0 +1,14 @@
+{
+    "salmon_version": "1.4.0",
+    "index": "/n/scratch3/users/j/jyh9/Organoid_RNA_08_14/references/transcriptome/salmon_index",
+    "threads": "2",
+    "libType": "A",
+    "mates1": "/n/scratch3/users/j/jyh9/Organoid_RNA_08_14/data/concat/LIB052393_TRA00217389_S8_concat_R1.fastq",
+    "mates2": "/n/scratch3/users/j/jyh9/Organoid_RNA_08_14/data/concat/LIB052393_TRA00217389_S8_concat_R2.fastq",
+    "output": "/n/scratch3/users/j/jyh9/Organoid_RNA_08_14/results/salmon/LIB052393_TRA00217389_S8_concat.salmon",
+    "seqBias": [],
+    "numBootstraps": "30",
+    "validateMappings": [],
+    "useVBOpt": [],
+    "auxDir": "aux_info"
+}

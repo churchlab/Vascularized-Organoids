@@ -1,0 +1,9 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0005201","GO:0005201","extracellular matrix structural constituent","2/2","176/17059",0.000105844680725053,0.000846757445800427,NA,"IGFBP7/DCN",2
+"GO:0030021","GO:0030021","extracellular matrix structural constituent conferring compression resistance","1/2","17/17059",0.00199214809793236,0.00796859239172942,NA,"DCN",1
+"GO:0005520","GO:0005520","insulin-like growth factor binding","1/2","30/17059",0.00351421522585216,0.00937124060227242,NA,"IGFBP7",1
+"GO:0050840","GO:0050840","extracellular matrix binding","1/2","53/17059",0.00620425778647948,0.012408515572959,NA,"DCN",1
+"GO:0005518","GO:0005518","collagen binding","1/2","81/17059",0.00947418486382445,0.0151586957821191,NA,"DCN",1
+"GO:0047485","GO:0047485","protein N-terminus binding","1/2","124/17059",0.0144853669075956,0.0178844991169071,NA,"DCN",1
+"GO:0019838","GO:0019838","growth factor binding","1/2","134/17059",0.0156489367272937,0.0178844991169071,NA,"IGFBP7",1
+"GO:0005539","GO:0005539","glycosaminoglycan binding","1/2","210/17059",0.0244696062909845,0.0244696062909845,NA,"DCN",1

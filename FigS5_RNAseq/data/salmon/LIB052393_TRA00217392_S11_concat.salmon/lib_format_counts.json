@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /n/scratch3/users/j/jyh9/Organoid_RNA_08_14/data/concat/LIB052393_TRA00217392_S11_concat_R1.fastq, /n/scratch3/users/j/jyh9/Organoid_RNA_08_14/data/concat/LIB052393_TRA00217392_S11_concat_R2.fastq]",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 21386703,
+    "num_assigned_fragments": 21386703,
+    "num_frags_with_concordant_consistent_mappings": 19032772,
+    "num_frags_with_inconsistent_or_orphan_mappings": 2806070,
+    "strand_mapping_bias": 0.4992795584374152,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 9502674,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 9530098,
+    "SF": 1414771,
+    "SR": 1391299,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

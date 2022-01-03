@@ -1,0 +1,4 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0005200","GO:0005200","structural constituent of cytoskeleton","1/1","94/17059",0.00551028782460872,0.0165308634738262,NA,"NEFM",1
+"GO:0008017","GO:0008017","microtubule binding","1/1","278/17059",0.016296383140864,0.0220997713816753,NA,"NEFM",1
+"GO:0015631","GO:0015631","tubulin binding","1/1","377/17059",0.0220997713816753,0.0220997713816753,NA,"NEFM",1

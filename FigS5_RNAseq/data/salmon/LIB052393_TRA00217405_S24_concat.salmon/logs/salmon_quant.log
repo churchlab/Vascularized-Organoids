@@ -1,0 +1,102 @@
+[2021-08-15 21:39:42.831] [jointLog] [info] setting maxHashResizeThreads to 2
+[2021-08-15 21:39:42.831] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2021-08-15 21:39:42.831] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2021-08-15 21:39:42.831] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2021-08-15 21:39:42.831] [jointLog] [info] parsing read library format
+[2021-08-15 21:39:42.831] [jointLog] [info] There is 1 library.
+[2021-08-15 21:39:42.920] [jointLog] [info] Loading pufferfish index
+[2021-08-15 21:39:42.921] [jointLog] [info] Loading dense pufferfish index.
+[2021-08-15 21:40:15.017] [jointLog] [info] done
+[2021-08-15 21:40:15.017] [jointLog] [info] Index contained 236,380 targets
+[2021-08-15 21:40:16.064] [jointLog] [info] Number of decoys : 194
+[2021-08-15 21:40:16.064] [jointLog] [info] First decoy index : 236,146 
+[2021-08-15 21:40:16.677] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2021-08-15 21:49:42.691] [jointLog] [info] Computed 688,657 rich equivalence classes for further processing
+[2021-08-15 21:49:42.691] [jointLog] [info] Counted 23,131,137 total reads in the equivalence classes 
+[2021-08-15 21:49:42.694] [jointLog] [info] Number of mappings discarded because of alignment score : 8,084,339
+[2021-08-15 21:49:42.694] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 1,202,010
+[2021-08-15 21:49:42.694] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 835,214
+[2021-08-15 21:49:42.694] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 204,022
+[2021-08-15 21:49:42.694] [jointLog] [info] Mapping rate = 82.4592%
+
+[2021-08-15 21:49:42.694] [jointLog] [info] finished quantifyLibrary()
+[2021-08-15 21:49:42.707] [jointLog] [info] Starting optimizer
+[2021-08-15 21:49:42.692] [fileLog] [info] 
+At end of round 0
+==================
+Observed 28051629 total fragments (28051629 in most recent round)
+
+[2021-08-15 21:49:43.093] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-08-15 21:49:43.201] [jointLog] [info] iteration = 0 | max rel diff. = 5253.04
+[2021-08-15 21:49:44.105] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2021-08-15 21:49:53.645] [jointLog] [info] Computed expected counts (for bias correction)
+[2021-08-15 21:49:53.645] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2021-08-15 21:50:01.080] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2021-08-15 21:50:08.566] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2021-08-15 21:50:16.331] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2021-08-15 21:50:24.157] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2021-08-15 21:50:30.904] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2021-08-15 21:50:38.094] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2021-08-15 21:50:45.167] [jointLog] [info] processed bias for 70.0% of the transcripts
+[2021-08-15 21:50:52.236] [jointLog] [info] processed bias for 80.0% of the transcripts
+[2021-08-15 21:50:59.727] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2021-08-15 21:51:07.681] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-08-15 21:51:07.682] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2021-08-15 21:51:15.749] [jointLog] [info] iteration = 100 | max rel diff. = 15.9072
+[2021-08-15 21:51:24.531] [jointLog] [info] iteration = 200 | max rel diff. = 20.9061
+[2021-08-15 21:51:33.402] [jointLog] [info] iteration = 300 | max rel diff. = 3.77583
+[2021-08-15 21:51:42.295] [jointLog] [info] iteration = 400 | max rel diff. = 9.6306
+[2021-08-15 21:51:51.215] [jointLog] [info] iteration = 500 | max rel diff. = 2.8733
+[2021-08-15 21:52:00.091] [jointLog] [info] iteration = 600 | max rel diff. = 0.35683
+[2021-08-15 21:52:09.081] [jointLog] [info] iteration = 700 | max rel diff. = 6.06731
+[2021-08-15 21:52:18.079] [jointLog] [info] iteration = 800 | max rel diff. = 0.504276
+[2021-08-15 21:52:27.071] [jointLog] [info] iteration = 900 | max rel diff. = 2.45946
+[2021-08-15 21:52:36.027] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.957249
+[2021-08-15 21:52:44.909] [jointLog] [info] iteration = 1,100 | max rel diff. = 2.1592
+[2021-08-15 21:52:53.914] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.481837
+[2021-08-15 21:53:02.922] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.197447
+[2021-08-15 21:53:11.941] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.3815
+[2021-08-15 21:53:20.919] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.136823
+[2021-08-15 21:53:29.955] [jointLog] [info] iteration = 1,600 | max rel diff. = 0.0320785
+[2021-08-15 21:53:38.869] [jointLog] [info] iteration = 1,700 | max rel diff. = 0.135136
+[2021-08-15 21:53:47.806] [jointLog] [info] iteration = 1,800 | max rel diff. = 0.0671097
+[2021-08-15 21:53:49.544] [jointLog] [info] iteration = 1,821 | max rel diff. = 0.00870905
+[2021-08-15 21:53:49.602] [jointLog] [info] Finished optimizer
+[2021-08-15 21:53:49.602] [jointLog] [info] writing output 
+
+[2021-08-15 21:53:50.070] [jointLog] [info] Starting Bootstrapping
+[2021-08-15 21:53:50.361] [jointLog] [info] Will draw 30 bootstrap samples
+[2021-08-15 21:53:50.361] [jointLog] [info] Optimizing over 688,657 equivalence classes
+[2021-08-15 21:53:50.465] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2021-08-15 21:56:59.566] [jointLog] [info] wrote 1 bootstraps
+[2021-08-15 21:59:51.842] [jointLog] [info] wrote 2 bootstraps
+[2021-08-15 22:02:44.133] [jointLog] [info] wrote 3 bootstraps
+[2021-08-15 22:06:05.805] [jointLog] [info] wrote 4 bootstraps
+[2021-08-15 22:09:18.669] [jointLog] [info] wrote 5 bootstraps
+[2021-08-15 22:12:24.302] [jointLog] [info] wrote 6 bootstraps
+[2021-08-15 22:15:00.422] [jointLog] [info] wrote 7 bootstraps
+[2021-08-15 22:18:27.114] [jointLog] [info] wrote 8 bootstraps
+[2021-08-15 22:22:39.739] [jointLog] [info] wrote 9 bootstraps
+[2021-08-15 22:27:27.788] [jointLog] [info] wrote 10 bootstraps
+[2021-08-15 22:30:49.231] [jointLog] [info] wrote 11 bootstraps
+[2021-08-15 22:34:02.813] [jointLog] [info] wrote 12 bootstraps
+[2021-08-15 22:36:48.031] [jointLog] [info] wrote 13 bootstraps
+[2021-08-15 22:39:42.442] [jointLog] [info] wrote 14 bootstraps
+[2021-08-15 22:42:37.002] [jointLog] [info] wrote 15 bootstraps
+[2021-08-15 22:45:52.405] [jointLog] [info] wrote 16 bootstraps
+[2021-08-15 22:48:22.765] [jointLog] [info] wrote 17 bootstraps
+[2021-08-15 22:50:56.051] [jointLog] [info] wrote 18 bootstraps
+[2021-08-15 22:54:02.179] [jointLog] [info] wrote 19 bootstraps
+[2021-08-15 22:56:56.046] [jointLog] [info] wrote 20 bootstraps
+[2021-08-15 22:59:37.346] [jointLog] [info] wrote 21 bootstraps
+[2021-08-15 23:02:00.059] [jointLog] [info] wrote 22 bootstraps
+[2021-08-15 23:04:26.925] [jointLog] [info] wrote 23 bootstraps
+[2021-08-15 23:07:22.242] [jointLog] [info] wrote 24 bootstraps
+[2021-08-15 23:09:34.217] [jointLog] [info] wrote 25 bootstraps
+[2021-08-15 23:12:17.997] [jointLog] [info] wrote 26 bootstraps
+[2021-08-15 23:14:41.527] [jointLog] [info] wrote 27 bootstraps
+[2021-08-15 23:17:29.816] [jointLog] [info] wrote 28 bootstraps
+[2021-08-15 23:19:57.698] [jointLog] [info] wrote 29 bootstraps
+[2021-08-15 23:22:16.835] [jointLog] [info] wrote 30 bootstraps
+[2021-08-15 23:22:16.916] [jointLog] [info] Finished Bootstrapping

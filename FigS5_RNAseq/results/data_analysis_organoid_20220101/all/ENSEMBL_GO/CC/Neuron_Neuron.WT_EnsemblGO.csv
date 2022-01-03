@@ -1,0 +1,3 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0060198","GO:0060198","clathrin-sculpted vesicle","1/5","12/15694",0.00381776090554031,0.045489186001637,0.0304712250728669,"GAD2",1
+"GO:0060077","GO:0060077","inhibitory synapse","1/5","13/15694",0.00413538054560336,0.045489186001637,0.0304712250728669,"GAD2",1

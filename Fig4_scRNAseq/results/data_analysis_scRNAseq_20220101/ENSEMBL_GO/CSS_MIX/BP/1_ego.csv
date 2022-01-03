@@ -1,0 +1,4 @@
+"","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0045109","GO:0045109","intermediate filament organization","1/1","17/16626",0.00102249488752559,0.00246601708167937,NA,"NEFM",1
+"GO:0045104","GO:0045104","intermediate filament cytoskeleton organization","1/1","40/16626",0.00240587032358963,0.00246601708167937,NA,"NEFM",1
+"GO:0045103","GO:0045103","intermediate filament-based process","1/1","41/16626",0.00246601708167937,0.00246601708167937,NA,"NEFM",1
