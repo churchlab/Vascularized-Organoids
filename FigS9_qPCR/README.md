@@ -1,5 +1,5 @@
-# designer_organoids
-Repository for Designer Organoids Paper
+# Vascularized_organoids
+Repository for Vascularized_organoids Paper
 Dr. Jeremy Y Huang - George M. Church Lab, Harvard University
 
 QPCR data acquired for Mixed Organoids at 3 time points.
