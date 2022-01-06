@@ -61,7 +61,7 @@ for(x in orig.ident_list){
     numcells_df[as.character(y),x] <- temp[names(temp)==y]}
 }
 
-write.csv(numcells_df, paste(output_dir, "/Fig4_S14_counts_snn_res0.1.csv", sep=""))   #
+write.csv(numcells_df, paste(output_dir, "/Fig4_S12_counts_snn_res0.1.csv", sep=""))   #
 ################################## Section 1.6 is_NGN1 Counts: Fig4|S14 #############################################
 #is_NGN1 is thresholded above log2x=4 (NGN1 barcode count > 16)
 all_ngn.meta <- new.meta[which(new.meta$NGN1_count>0),]
@@ -102,8 +102,8 @@ df_EndoMarkers <- as.data.frame(t(as.matrix(df_EndoMarkers)))
 hmp = pheatmap(df_EndoMarkers, color = color, cluster_rows = F, cluster_cols = F, show_rownames = T, 
   scale = "column", border_color = NA, fontsize = 7, fontsize_row = 7, height = 20)
 
-ggsave(file=paste(output_dir,"/FigS15_Endo_Norm_Counts.svg", sep=""), plot=hmp, width=3.75, height=1.5) #  Endothelium heatmap
-write.csv(df_EndoMarkers, paste(output_dir,"/FigS15_Endo_Norm_Counts.csv", sep=""))
+ggsave(file=paste(output_dir,"/FigS13_Endo_Norm_Counts.svg", sep=""), plot=hmp, width=3.75, height=1.5) #  Endothelium heatmap
+write.csv(df_EndoMarkers, paste(output_dir,"/FigS13_Endo_Norm_Counts.csv", sep=""))
 
 ##################### Heatmaps for NGN1 using Average Normalized Expression| FigS15 ###########################
 neural_list <- c(1, 2, 5, 6)
@@ -123,8 +123,8 @@ color = colorRampPalette(c("blue", "white", "red"))(499)
 nmp = pheatmap(df_NeuroMarkers, color = color, cluster_rows = F, cluster_cols = F, show_rownames = T, 
   scale = "column", border_color = NA, fontsize = 7, fontsize_row = 7, height = 20)
 
-ggsave(file=paste(output_dir,"/FigS15_Neuron_Norm_Counts.svg", sep=""), plot=nmp, width=3.75, height=1.5) #  iNeuron heatmap
-write.csv(df_NeuroMarkers, paste(output_dir,"/FigS15_Neuron_Norm_Counts.csv", sep=""))
+ggsave(file=paste(output_dir,"/FigS13_Neuron_Norm_Counts.svg", sep=""), plot=nmp, width=3.75, height=1.5) #  iNeuron heatmap
+write.csv(df_NeuroMarkers, paste(output_dir,"/FigS13_Neuron_Norm_Counts.csv", sep=""))
 
 ################################ Section III: GO Analysis and Volcano Plots comparing ##########################
 
@@ -333,7 +333,7 @@ for (x in 1:7){
   init_df <- rbind (init_df, temp_df)
 }
 
-write.csv(init_df, paste(output_dir, "/FigS13_initdf_hm_markers_10.csv", sep=""))
+write.csv(init_df, paste(output_dir, "/FigS11_initdf_hm_markers_10.csv", sep=""))
 gc()
 
 ## Scale the data before doing heatmap
@@ -345,9 +345,9 @@ all.genes <- rownames(seurat_integrated)
 hmp <- DoHeatmap(ScaleData(seurat_integrated, features = all.genes), features = top10$gene, slot="scale.data")
 pg <- ggplot_build(hmp)
 raw_hmpdata <- hmp$data
-write.csv(raw_hmpdata, paste(output_dir, "/FigS13_raw_hmp_10.csv", sep=""))
+write.csv(raw_hmpdata, paste(output_dir, "/FigS11_raw_hmp_10.csv", sep=""))
 
-pdfFN(paste(output_dir, "/FigS13_hm_markers_10.pdf", sep=""), hmp, 6 , 6)
+pdfFN(paste(output_dir, "/FigS11_hm_markers_10.pdf", sep=""), hmp, 6 , 6)
 gc()
 
 
