@@ -3,7 +3,7 @@ Repository for Designer Organoids Paper
 Dr. Jeremy Y Huang - George M. Church Lab, Harvard University
 
 Purpose:
-Processed Data in Seurat Object for Figure 2 and Figure 5 and accompanying supplemental data for Skylar Scott, Huang, Lue, et.al
+Processed Data in Flow Cytometry Data for Figure 2 and Figure 5 and accompanying supplemental data for Skylar Scott, Huang, Lue, et.al
 
 ./data folder contains Figure-based data,metadata,project descriptions in individual README files.
 	- data processed in FlowJo.
