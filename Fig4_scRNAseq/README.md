@@ -8,7 +8,7 @@ Processed Data in Seurat Object for Figure 4 and accompanying supplemental data 
 Scripts generates figures and data using data/meta folders. 
 Runs natively in R 4.1.2 and during second submission in 4.1.0
 
-./data folder needs Seurat dataset in .rds format (14.5 gb loaded), to be downloaded from GEO: 
+./data folder needs Seurat dataset in .rds format (14.5 gb loaded), which can be provided from authors: 
 ./meta folder
   -  JH_org_sc_seurat_integrated_CCA_2batch_clustered_meta_with_NGN1.rds contains information for cells with NGN1 barcode for iNeuron identification.
   -  marker_list.csv contains known endothelial markers for supplemental heatmap plot.
