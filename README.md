@@ -13,4 +13,4 @@ The directory "FigS5_RNAseq" contains the processed data, metadata, scripts, and
 
 The directory "FigS9_qPCR" contains the processed data, metadata,and outputs for RT-qPCR analysis in figure S9.
 
-The directory "FigS12_SCN" contains the processed data, metadata,and outputs for SingleCellNet analysis in figure S12.
+The directory "FigS12_SCN" contains the metadata,scripts, and outputs for SingleCellNet analysis in figure S12.
